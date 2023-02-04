@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.filters{
+    display: flex;
+    font-size: 8px;
+    flex-direction: column;
+    margin-right: 200px;
+}
+.sideFilter{
+    font-size: 1rem;
+    display: flex;
+    color: #282C3F;
+    align-items: center;
+    justify-content: space-between;
+}
+.sideFilter select{
+    /* padding: 40px 200px; */
+    width: 200px;
+    height: 40px;
+    font-size: 1rem;
+}
+.filters .boysOrGirls{
+    padding: 20px;
+    border: 1px solid #282C3F;
+    width: 200px;
+    color: #282C3F;
+    
+}
+.filters .Brand{
+    padding: 20px;
+    border: 1px solid black;
+    width: 200px;
+    color: #282C3F;
+}
+.filters label{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.filters .Price{
+    padding: 20px;
+    border: 1px solid #282C3F;
+    width: 200px;
+
+}
+.filters .color{
+    padding: 20px;
+    border: 1px solid #282C3F;
+    width: 200px;
+}

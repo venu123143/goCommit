@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.backImg{
+    height: 431px;
+    /* background-color: blue; */
+    margin-bottom: 10px;
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2,322.5px);
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    margin-right: 20px;
+}
+.image-grid img{
+    height: 431px;
+    width: 322.5px;
+}
+.divsion{
+    display: flex;
+}
+/* .details_data{
+    background-color: aliceblue;
+} */ 
+.title,#cost{
+    color: #282C3F;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.subtitle,#xcost{
+    color: #535665;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.subtitle{
+    margin-bottom: 25px;
+}
+.pricetitle{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+#discount{
+    color: orange;
+    font-size: 22px;
+    
+}
+#green{
+    color: #03A685;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+#sizechart{
+    display: flex;
+    align-items: center;
+}
+.headdings{
+    font-size: 1rem;
+    color: #282C3F;
+    margin-right: 30px;
+}
+.pink{
+    font-size: 14px;
+    color: #ff3E6C;
+    font-weight: 700;
+}
+#sizes{
+    display: flex;
+    margin: 30px;
+}
+#sizes div{
+    margin-right: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #bfc0c6;
+    border-radius: 50%;
+    cursor: pointer; 
+    outline: none;
+    -webkit-box-flex: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#buttons #bag{
+    padding: 15px 60px;
+    border-radius: 3px;
+    background-color: #ff3E6C;
+    border: 1px solid #ff3EBC;
+    margin-right: 3%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+#buttons #wishlist{
+    padding: 15px 40px;
+    background-color: #ffffff;
+    border: 1px solid #535665;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 700;
+    /* color: #ffffff; */
+}
+.options{
+    margin-top: 30px;
+}
+#textbox{
+    position: relative;
+}
+.options input{
+    height: 2.5rem;
+    width: 20vw;
+    outline: 0;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.options #checking{
+    position: absolute;
+    left: 200px;
+    top: 40px;
+
+}
+#pincode{
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+.options #paras p{
+    font-size: 1rem;
+    color: #282C3F;
+    margin-bottom: 7px;
+
+}
+.options #paras p:last-child{
+    margin-bottom: 30px;
+}
+.options h6{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#first_ul,#second_ul{
+    margin: 15px;
+}
+#first_ul li{
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #282C3F;
+}
+#first_ul+.pink{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#second_ul li{
+    font-size: 13px;
+}
+#second_ul+.pink{
+    margin-bottom: 30px;
+}
+hr+.headdings{
+    margin-bottom: 20px;
+}
+.options .data{
+    color: #282C3F;
+    text-align: justify;
+}
+.specifications{
+    margin-top: 20px;
+}
+.index-tableContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+.index-tableContainer .index-row:nth-child(odd) {
+    margin-right: 10%;
+}
+.index-tableContainer .index-row .index-rowValue {
+    position: relative;
+    color: #282c3f;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.index-tableContainer .index-row .index-rowKey {
+    position: relative;
+    color: #7e818c;
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+.index-tableContainer .index-row {
+    position: relative;
+    border-bottom: 1px solid #eaeaec;
+    margin: 0 0 12px;
+    padding-bottom: 10px;
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+}
+
+
+

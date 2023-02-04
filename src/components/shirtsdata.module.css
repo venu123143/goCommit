@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+
+}
+.mainDiv{
+    display: flex;
+    
+}
+.productContainer{
+    display: grid;
+    grid-template-columns:repeat(4,210px);
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 35px;
+    padding: 25px;
+}
+.product{
+    height: 357px;
+    width: 210px;
+
+
+}
+.product a img{
+    height: 280px;
+    width: 210px;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+} 
+.product  h1{
+    font-size: 1rem;
+}
+.product  p{
+    font-size: 12px;
+    color: #282C3F;
+}
+.product .details{
+    display: flex;
+    align-items: center;
+}
+.product .details .cost{
+    font-weight: 650;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.product .details .Xcost{
+    font-size: 600;
+    color: #282C3F;
+    font-size: 11px;
+    margin-right: 5px;
+
+}
+.product .details p{
+    color: orange;
+}
+.product .wishlist .size{
+    display: none;
+}
+.product .wishlist{
+    height: 2rem;
+    width: 180px;
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #999;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.product:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* display: flex;
+    align-items: center; */
+
+}
+.product:hover h1, .product:hover .size,.product:hover .desc{
+    display: none;
+}
+.product:hover .wishlist{
+    display: block;
+}
+.product .items .wishlist{
+   margin-left: 13px;
+}
